@@ -21,7 +21,7 @@ bool isPossible(vector<int> &arr, int N, int C, int minAllowedDist){ //O(N)
 
 int getDistance(vector<int> &arr, int N, int C){
     sort(arr.begin(), arr.end()); //NlogN
-    //st = 1, end = maxVal-minVal;
+    //st = 1, end = maxVal in arr -minVal in arr;
 
     int st = 1, end = arr[N-1] - arr[0], ans = -1;
 
