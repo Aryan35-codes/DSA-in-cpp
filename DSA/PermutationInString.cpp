@@ -1,10 +1,10 @@
 #include<iostream> /**/ 
 #include<string>
 using namespace std;
-
+ 
 bool isFreqSame(int freq[26], int windFreq[26]){
     for(int i=0; i<26; i++){
-        if(freq[i] != windFreq[i]){
+        if(freq[i] != windFreq[i]){ 
             return false;
         }
     }
